@@ -3,6 +3,10 @@
     {
       "source": "/api/:path*",
       "destination": "http://wild-badger.enzonic.dev:25837/api/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
